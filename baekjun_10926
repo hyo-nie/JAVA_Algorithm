@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+// 방법1
 		public class Main {
 
 			public static void main(String[] args) {
@@ -11,5 +11,16 @@ import java.util.Scanner;
 				System.out.println(id + lastString);
 				
 				sc.close();
+				import java.util.Scanner;
+
+// 방법2
+		public class Main4 {
+
+			public static void main(String[] args) {
+
+				Scanner sc = new Scanner(System.in);
+				String id = sc.next();
+				System.out.println(id + "??!");
+
 			}
 		}
