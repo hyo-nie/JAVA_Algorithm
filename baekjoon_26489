@@ -18,6 +18,7 @@ public class Main30 {
 		}
 		br.close();
 		System.out.println(cnt);
+		
     }catch (Exception e) {
     		}
 	}
